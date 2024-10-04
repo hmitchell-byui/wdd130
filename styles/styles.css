@@ -1,7 +1,8 @@
-nav { background-color: steelblue;padding: 10px;}
+:root {--color:steelblue;}
+nav { background-color: var(--color);padding: 10px;}
 nav a{color:white; display:block; padding:20px;}
-h1 {color: steelblue;}
-img {width:150px; height: auto; border:1px solid steelblue; padding:2px; box-shadow: 0 0 30px gray;}
+h1 {color: var(--color);}
+img {width:150px; height: auto; border:1px solid var(--color); padding:2px; box-shadow: 0 0 30px gray;}
 p {padding:0;}
 main {max-width:260px;}
 aside {width: 800px;margin:20px;border:20px;padding:20px;background-color:#7c8b9a;color:#1a2b3c;text-align: center;}
