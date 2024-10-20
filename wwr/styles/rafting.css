@@ -57,7 +57,9 @@ h1 {
     font-size: 3rem;
     color:var(--color2);
     position:absolute;
-    margin-left:9%
+    margin-left:9%;
+    display: block;
+    justify-content: center;
 }
 
 article{
